@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: black;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(31, 30, 30);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-shadow: 3px 3px rgb(86, 129, 170), -3px -3px rgb(170, 86, 86);
+}
+
+@media (max-width: 1050px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 1.7rem;
+        text-shadow: 1px 1px rgb(86, 129, 170), -1px -1px rgb(170, 86, 86);
+        margin: 0 2%;
+    }
+}
